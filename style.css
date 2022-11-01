@@ -17,7 +17,7 @@ body {
   background-position: center center;
 }
 
-.about, .experience, .contact {
+.about {
   margin: 40px auto;
   padding: 20px 30px 40px 30px;
   background-color: #FFFFFF;
