@@ -11,13 +11,13 @@ body {
 }
 
 /** Header styles **/
-list {
+.header {
   background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
   height: 400px;
   background-position: center center;
 }
 
-.about, .experience, .contact {
+.about {
   margin: 40px auto;
   padding: 20px 30px 40px 30px;
   background-color: #FFFFFF;
@@ -27,6 +27,27 @@ list {
   align-self: center;
 }
 
+.experience {
+  color: #938E89;
+  text-align: center;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact {
+  font: inherit;
+  padding: 0 20px;
+  color: #FFFFFF;
+  overflow: auto;
+  opacity: 0.9;
+}
+
+.spectrum p {
+  color: #FFFFFF;
+  text-align: left;
+}
 
 /* Roast types */
 .green {
@@ -61,7 +82,6 @@ h1 {
   top: 20%;
 }
 
-
 /* Page elements */
 ul {
   margin: 0 auto;
@@ -84,3 +104,13 @@ p {
   font-weight: 100;
 }
 
+a {
+  color: #214E34;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
