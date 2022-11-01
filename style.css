@@ -17,7 +17,7 @@ body {
   background-position: center center;
 }
 
-.about {
+.about, .experience, .contact {
   margin: 40px auto;
   padding: 20px 30px 40px 30px;
   background-color: #FFFFFF;
@@ -25,23 +25,6 @@ body {
   width: 75%;
   border-radius: 4px;
   align-self: center;
-}
-
-.experience {
-  color: #938E89;
-  text-align: center;
-  line-height: 24px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.contact {
-  font: inherit;
-  padding: 0 20px;
-  color: #FFFFFF;
-  overflow: auto;
-  opacity: 0.9;
 }
 
 .spectrum p {
