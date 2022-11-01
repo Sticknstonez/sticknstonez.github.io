@@ -17,7 +17,7 @@ list {
   background-position: center center;
 }
 
-div {
+.about, .experience, .contact {
   margin: 40px auto;
   padding: 20px 30px 40px 30px;
   background-color: #FFFFFF;
