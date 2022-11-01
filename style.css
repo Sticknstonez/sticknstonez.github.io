@@ -27,7 +27,7 @@ body {
   align-self: center;
 }
 
-.roasting p {
+.experience {
   color: #938E89;
   text-align: center;
   line-height: 24px;
@@ -36,7 +36,7 @@ body {
   font-weight: 400;
 }
 
-.spectrum div {
+.contact {
   font: inherit;
   padding: 0 20px;
   color: #FFFFFF;
